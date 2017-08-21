@@ -16,3 +16,14 @@
     font-weight: 300;
     margin-bottom: 70px;
 }
+
+.section-contact-us .background{
+	background-image: url('../img/bg11.jpg');
+	background-size: cover;
+	background-position: top center;
+	min-height: 700px;
+}
+
+.section-contact-us .col .btn{
+    margin-top: 30px;
+}
