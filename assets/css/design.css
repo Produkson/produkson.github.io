@@ -27,3 +27,22 @@
 .section-contact-us .col .btn{
     margin-top: 30px;
 }
+
+.section-about{
+	padding-bottom: 10px;
+}
+.section-services{
+	padding-top: 20px;
+}
+.section-services .image-container{
+	margin-left: -150px;
+}
+
+h5.description{
+	color: #8A8A8A;
+	font-weight: 400;
+}
+
+h5.description .font-weight-bold{
+	font-weight: 600;
+}
