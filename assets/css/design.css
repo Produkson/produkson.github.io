@@ -42,12 +42,12 @@
 	max-width: 100px;
 }
 
-h5.description{
+.description{
 	color: #8A8A8A;
 	font-weight: 400;
 }
 
-h5.description .font-weight-bold{
+.description .font-weight-bold{
 	font-weight: 600;
 }
 
