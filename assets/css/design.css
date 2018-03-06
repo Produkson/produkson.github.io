@@ -50,3 +50,7 @@ h5.description{
 h5.description .font-weight-bold{
 	font-weight: 600;
 }
+
+ul{
+    list-style-position:outside;
+}
