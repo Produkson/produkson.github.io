@@ -1723,7 +1723,8 @@ p.description {
   font-size: 1.14em; }
 
 .title {
-  font-weight: 700; }
+  font-weight: 700;
+    color: #eeeeee}
 .title.title-up {
   text-transform: uppercase; }
 .title.title-up a {
@@ -1733,7 +1734,7 @@ p.description {
   margin-top: -25px; }
 
 .description, .card-description, .footer-big p {
-  color: #9A9A9A;
+  color: #dddddd;
   font-weight: 300; }
 
 .category {
@@ -2071,7 +2072,10 @@ body {
   background-color: #FFB236 !important; }
 
 .bg-white {
-  background-color: #FFFFFF !important; }
+  background-color: #0a2c4f !important; }
+
+.bg-grey {
+    background-color: #eeeeee !important; }
 
 .dropdown-menu {
   border: 0;
