@@ -45,6 +45,7 @@
 .description{
 	color: #b0b0b0;
 	font-weight: 400;
+    text-align: justify;
 }
 
 .description .font-weight-bold{
