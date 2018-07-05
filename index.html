@@ -35,7 +35,7 @@
 		<div class="navbar-translate">
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
 					data-target="#navigation" aria-controls="navigation-index" aria-expanded="false"
-					aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span> <span
+					aria-label="Toggle navigation" id="button-close"><span class="navbar-toggler-bar bar1"></span> <span
 					class="navbar-toggler-bar bar2"></span> <span class="navbar-toggler-bar bar3"></span></button>
 			<a class="navbar-brand" href="javascript:void(0)" onclick="scrollToHome();" data-placement="bottom" target="_blank">
 				<img class="logo-little" src="./img/logos/pks-logo-min.png" alt="">
@@ -87,7 +87,7 @@
 <div class="wrapper">
 
 	<!-- Brand -->
-	<div class="page-header clear-filter">
+	<div class="page-header clear-filter" id="home">
 		<div class="page-header-image" data-parallax="true" style="background-image: url('./img/header.jpg');"></div>
 		<div class="container">
 			<div class="content-center brand">
@@ -309,27 +309,32 @@ c.parentNode.insertBefore(cp, c); })(); </script>
 	});
 
 	function scrollToHome() {
-		$("html, body").animate({ scrollTop: $('#body').offset().top }, 1000);
+		$("html, body").animate({ scrollTop: $('#home').offset().top }, 1000);
 	}
 
 	function scrollToAbout() {
 		$("html, body").animate({ scrollTop: $('#about').offset().top }, 1000);
+		$("#button-close").click()
 	}
 
 	function scrollToServices() {
 		$("html, body").animate({ scrollTop: $('#services').offset().top }, 1000);
+		$("#button-close").click()
 	}
 
 	function scrollToPortfolio() {
 		$("html, body").animate({ scrollTop: $('#portfolio').offset().top }, 1000);
+		$("#button-close").click()
 	}
 
 	function scrollToContact() {
 		$("html, body").animate({ scrollTop: $('#contact_us').offset().top }, 1000);
+		$("#button-close").click()
 	}
 
 	function scrollToExamples() {
 		$("html, body").animate({ scrollTop: $('#examples').offset().top }, 1000);
+		$("#button-close").click()
 	}
 </script>
 
