@@ -19,9 +19,9 @@ do
     convert $NAME_IMG -resize 85x85 $NAME_THUMB
 
     
-    echo    "    <image imageURL=\"img/galery/images/$NAME_IMG\"" >> ./config.xml
-	echo    "        thumbURL=\"img/galery/images/$NAME_THUMB\"" >> ./config.xml
-	echo    "        linkURL=\"img/galery/images/$NAME_IMG\"" >> ./config.xml
+    echo    "    <image imageURL=\"img/galery/$NAME_IMG\"" >> ./config.xml
+	echo    "        thumbURL=\"img/galery/$NAME_THUMB\"" >> ./config.xml
+	echo    "        linkURL=\"img/galery/$NAME_IMG\"" >> ./config.xml
 	echo    "        linkTarget=\"_blank\">" >> ./config.xml
 	echo    "        <title></title>" >> ./config.xml
     echo    "    </image>" >> ./config.xml
