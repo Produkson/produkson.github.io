@@ -9,8 +9,8 @@ echo    '<juiceboxgallery galleryTitle="">' > ./config.xml
 
 for f in $FILES
 do
-    NAME_IMG=./images/img_$(printf "%02d\n" $NAME_ID).jpg
-    NAME_THUMB=./images/img_thumb_$(printf "%02d\n" $NAME_ID).jpg
+    NAME_IMG=images/img_$(printf "%02d\n" $NAME_ID).jpg
+    NAME_THUMB=images/img_thumb_$(printf "%02d\n" $NAME_ID).jpg
 
     echo "Processing $f file to $NAME_IMG and $NAME_THUMB ... "
 
